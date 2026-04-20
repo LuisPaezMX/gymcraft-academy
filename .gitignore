@@ -1,0 +1,4 @@
+# Archivos pesados — productos digitales (no van en Git)
+Planos Maquinas Gym/
+*.pdf
+AUTOR.txt
