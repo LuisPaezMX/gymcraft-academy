@@ -2,5 +2,20 @@
 Planos Maquinas Gym/
 *.pdf
 AUTOR.txt
-*.png
-*.jpg
+
+# Archivos de trabajo / exports pesados
+img/raw/
+img/trabajo/
+
+# Overrides personales de Claude (no se comparten)
+.claude/settings.local.json
+CLAUDE.local.md
+
+# Secretos y credenciales
+*.env
+.env*
+api_keys.txt
+secrets.txt
+*credentials*
+*tokens*
+*secret*
