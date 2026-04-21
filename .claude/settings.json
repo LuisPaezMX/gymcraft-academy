@@ -1,0 +1,15 @@
+{
+  "claudeCode.preferredLocation": "panel",
+  "claudeCode.initialPermissionMode": "bypassPermissions",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell Bypass": {
+      "source": "PowerShell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass"
+      ]
+    }
+  },
+  "terminal.defaultProfile.windows": "PowerShell Bypass"
+}
