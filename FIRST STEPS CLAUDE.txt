@@ -1,0 +1,19 @@
+Para poder hacer el bypass de permisos en PowerShell, lo que se hizo fue buscar el siguiente comando dentro de File > Preferences > Editor Settings.
+
+terminal.integrated.automationShell.windows
+
+{
+    "claudeCode.preferredLocation": "panel",
+    "claudeCode.initialPermissionMode": "bypassPermissions",
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell Bypass": {
+            "source": "PowerShell",
+            "args": [
+                "-ExecutionPolicy",
+                "Bypass"
+            ]
+        }
+    },
+    "terminal.defaultProfile.windows": "PowerShell Bypass"
+}
