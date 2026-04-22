@@ -1,19 +1,25 @@
-# Archivos pesados — productos digitales (no van en Git)
+# ===== Productos digitales (nunca subir) =====
 Planos Maquinas Gym/
 *.pdf
 AUTOR.txt
 
-*.ai
+# ===== Archivos de desarrollo / internos =====
+CLAUDE.md
+CLAUDE.local.md
+.claude/
+scripts/
+mockup-hero.html
 
-# Archivos de trabajo / exports pesados
+# ===== Assets fuente (no necesarios para el sitio) =====
+*.ai
+*.psd
+Creativo_1.png
+Logo_sin_fondo.png
+logo_redes.jpg
 img/raw/
 img/trabajo/
 
-# Overrides personales de Claude (no se comparten)
-.claude/settings.local.json
-CLAUDE.local.md
-
-# Secretos y credenciales
+# ===== Secretos y credenciales =====
 *.env
 .env*
 api_keys.txt
