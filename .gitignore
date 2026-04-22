@@ -3,6 +3,8 @@ Planos Maquinas Gym/
 *.pdf
 AUTOR.txt
 
+*.ai
+
 # Archivos de trabajo / exports pesados
 img/raw/
 img/trabajo/

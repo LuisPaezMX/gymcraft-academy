@@ -53,10 +53,11 @@ Gymcraft Academy/
 - [x] Fase 1: Configurar cuenta y productos en Hotmart
 - [x] Fase 2: Crear landing page (index.html + css + js + imágenes optimizadas WebP)
 - [x] Fase 3: Crear thank-you.html (flujo Hotmart → PDF guía → Drive)
-- [ ] Fase 4: Crear pending-payment.html (OXXO/efectivo)
-- [ ] Fase 5: Decidir y crear pending-credit.html (análisis de crédito)
-- [ ] Fase 6: Subir a GitHub Pages
+- [x] Fase 4: Crear pending-payment.html (OXXO/efectivo)
+- [x] Fase 5: Decidir y crear pending-credit.html (análisis de crédito)
+- [x] Fase 6: Subir a GitHub Pages
 - [ ] Fase 7: Prueba de compra completa + lanzamiento TikTok
+- [ ] Fase 8: Agregar Google Analytics al sitio
 
 ## Próximo paso
-Crear `pending-payment.html` para cuando el cliente elige pagar por OXXO o efectivo y el pago aún no se confirma. Debe explicar que el acceso llega cuando Hotmart valide el pago (24-48h típicamente) y reforzar que todavía no cancele ni vuelva a pagar.
+Fase 7: Realizar prueba de compra completa en Hotmart para validar todo el flujo (checkout → thank-you → pending pages). También integrar Google Analytics (Fase 8) para monitorear visitas.
