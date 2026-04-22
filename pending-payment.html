@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Pago pendiente — Gymcraft Academy</title>
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png" />
+  <link rel="apple-touch-icon" href="favicon-192.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .pp {
+      max-width: 560px;
+      margin: 0 auto;
+      padding: 3rem 1.25rem;
+      text-align: center;
+    }
+    .pp-icon {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #fef3c7;
+      color: #b45309;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1.25rem;
+    }
+    .pp-icon svg { width: 38px; height: 38px; }
+    .pp h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.7rem, 5vw, 2.3rem);
+      line-height: 1.15;
+      margin-bottom: 0.8rem;
+    }
+    .pp h1 em { font-style: normal; color: var(--orange); }
+    .pp .lead {
+      color: var(--text-soft);
+      font-size: 1.02rem;
+      line-height: 1.65;
+      margin-bottom: 2rem;
+    }
+    .pp .lead strong { color: var(--text); }
+    .pp-steps {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.25rem;
+      text-align: left;
+      margin-bottom: 1.75rem;
+    }
+    .pp-steps h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-mute);
+      margin-bottom: 0.9rem;
+    }
+    .pp-step {
+      display: flex;
+      gap: 0.85rem;
+      align-items: flex-start;
+      padding: 0.6rem 0;
+      font-size: 0.94rem;
+    }
+    .pp-step:not(:last-child) { border-bottom: 1px dashed var(--border); }
+    .pp-step .n {
+      flex-shrink: 0;
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: #f59e0b;
+      color: var(--white);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.82rem;
+    }
+    .pp-step div strong { display: block; color: var(--text); margin-bottom: 0.15rem; }
+    .pp-step div span { color: var(--text-soft); font-size: 0.86rem; }
+    .pp-warn {
+      background: #fee2e2;
+      border: 1px solid #fecaca;
+      border-radius: 10px;
+      padding: 0.9rem 1rem;
+      font-size: 0.88rem;
+      color: #7f1d1d;
+      text-align: left;
+      margin-bottom: 1rem;
+    }
+    .pp-warn strong { color: #7f1d1d; }
+    .pp-note {
+      background: #fef3c7;
+      border: 1px solid #fde68a;
+      border-radius: 10px;
+      padding: 0.9rem 1rem;
+      font-size: 0.88rem;
+      color: #78350f;
+      text-align: left;
+    }
+    .pp-note strong { color: #78350f; }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="logo">
+      <span class="logo-top"><span class="gym">GYM</span><span class="craft">CRAFT</span></span>
+      <span class="academy">A C A D E M Y</span>
+    </div>
+  </nav>
+
+  <section class="pp">
+    <div class="pp-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <polyline points="12 6 12 12 16 14"/>
+      </svg>
+    </div>
+
+    <h1>Tu pedido está <em>reservado</em></h1>
+
+    <p class="lead">
+      Elegiste pagar en <strong>OXXO o efectivo</strong>, así que todavía falta un paso:
+      completar el pago para que podamos enviarte los <strong>+350 planos técnicos</strong> a tu correo.
+    </p>
+
+    <div class="pp-steps">
+      <h3>Qué sigue</h3>
+
+      <div class="pp-step">
+        <span class="n">1</span>
+        <div>
+          <strong>Paga tu referencia antes de que expire</strong>
+          <span>Hotmart te mandó un correo con el número de referencia y el monto. Llévalo a la tienda y paga en las próximas 72 horas. Si se pasa ese tiempo, la referencia se cancela y tendrías que empezar de nuevo.</span>
+        </div>
+      </div>
+
+      <div class="pp-step">
+        <span class="n">2</span>
+        <div>
+          <strong>Espera la confirmación de Hotmart</strong>
+          <span>Cuando la tienda reporta tu pago, Hotmart lo valida y te manda el acceso por correo. Suele tardar entre 24 y 48 horas después de que pagaste. No hay que hacer nada de tu lado.</span>
+        </div>
+      </div>
+
+      <div class="pp-step">
+        <span class="n">3</span>
+        <div>
+          <strong>Abre la Guía de descarga Gymcraft</strong>
+          <span>En ese correo llega un PDF con ese nombre. Ábrelo: adentro está el botón que te lleva a la carpeta de Google Drive con todos los planos para descargar.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="pp-warn">
+      <strong>No vuelvas a pagar.</strong> Tu referencia ya está generada. Si haces una segunda compra
+      te van a cobrar dos veces y el reembolso tarda. Usa solo la referencia que te llegó al correo.
+    </div>
+
+    <div class="pp-note">
+      <strong>¿No te llegó la referencia?</strong> Revisa spam o promociones en tu correo.
+      Si pasa más de 1 hora sin verla, escríbenos a
+      <a href="mailto:gymcraftacademy@gmail.com" style="color:#78350f; font-weight:600;">gymcraftacademy@gmail.com</a>
+      y te ayudamos.
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-logo">
+      <div class="logo">
+        <span class="logo-top"><span class="gym">GYM</span><span class="craft">CRAFT</span></span>
+        <span class="academy">A C A D E M Y</span>
+      </div>
+    </div>
+    <div>
+      <a href="legal.html">Términos y política de privacidad</a>
+    </div>
+    <div style="margin-top:0.6rem;">
+      Soporte: <a href="mailto:gymcraftacademy@gmail.com">gymcraftacademy@gmail.com</a>
+    </div>
+    <p class="disclaimer">
+      Gymcraft Academy · Producto digital · Pagos procesados por Hotmart.
+      Los resultados varían según el esfuerzo y habilidad de cada comprador.
+    </p>
+  </footer>
+
+</body>
+</html>
