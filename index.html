@@ -9,6 +9,22 @@
     gtag('js', new Date());
     gtag('config', 'G-TRT8PE77RM');
   </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
+  (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '963412462765148');
+  fbq('track', 'PageView');
+  fbq('track', 'ViewContent', {value: 10, currency: 'USD'});
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=963412462765148&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="+350 planos técnicos de máquinas de gym por $10 USD. Medidas reales, vistas de corte, listos para fabricar y revender en LATAM." />
@@ -52,7 +68,7 @@
     </p>
 
     <div class="cta-wrap">
-      <a href="https://pay.hotmart.com/R105424818K" class="btn-primary">Quiero los planos ahora →</a>
+      <a href="https://pay.hotmart.com/R105424818K" class="btn-primary" onclick="fbq('track','InitiateCheckout')">Quiero los planos ahora →</a>
       <p class="cta-sub">Pago seguro · Acceso inmediato · <strong>Es tuyo para siempre</strong></p>
       <span class="live-pill">
         <span class="dot"></span>
@@ -240,7 +256,7 @@
     </div>
 
     <div class="cta-wrap cta-desktop-only" style="margin-top:2rem;">
-      <a href="https://pay.hotmart.com/R105424818K" class="btn-primary">Comprar los planos ahora →</a>
+      <a href="https://pay.hotmart.com/R105424818K" class="btn-primary" onclick="fbq('track','InitiateCheckout')">Comprar los planos ahora →</a>
     </div>
   </section>
 
@@ -426,7 +442,7 @@
       <span class="s-price">$10 USD · +350 planos</span>
       <span class="s-timer" data-timer>03:00:00</span>
     </div>
-    <a href="https://pay.hotmart.com/R105424818K" class="btn-primary">Quiero los planos →</a>
+    <a href="https://pay.hotmart.com/R105424818K" class="btn-primary" onclick="fbq('track','InitiateCheckout')">Quiero los planos →</a>
   </div>
 
   <script src="js/timer.js"></script>
