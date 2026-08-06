@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRT8PE77RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-TRT8PE77RM');
   </script>
 
   <!-- Meta Pixel Code -->
   <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
-  (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '963412462765148');
-  fbq('track', 'PageView');
-  fbq('track', 'Purchase', {value: 29.90, currency: 'BRL'});
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }
+      (window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '963412462765148');
+    fbq('track', 'PageView');
+    fbq('track', 'Purchase', { value: 29.90, currency: 'BRL' });
   </script>
   <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=963412462765148&ev=PageView&noscript=1" /></noscript>
+      src="https://www.facebook.com/tr?id=963412462765148&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
 
   <meta charset="UTF-8" />
@@ -35,7 +40,9 @@
   <link rel="apple-touch-icon" href="favicon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <style>
     .ty {
@@ -44,6 +51,7 @@
       padding: 3rem 1.25rem;
       text-align: center;
     }
+
     .ty-check {
       width: 72px;
       height: 72px;
@@ -55,7 +63,12 @@
       justify-content: center;
       margin-bottom: 1.25rem;
     }
-    .ty-check svg { width: 36px; height: 36px; }
+
+    .ty-check svg {
+      width: 36px;
+      height: 36px;
+    }
+
     .ty h1 {
       font-family: 'Montserrat', sans-serif;
       font-weight: 800;
@@ -63,14 +76,23 @@
       line-height: 1.15;
       margin-bottom: 0.8rem;
     }
-    .ty h1 em { font-style: normal; color: var(--orange); }
+
+    .ty h1 em {
+      font-style: normal;
+      color: var(--orange);
+    }
+
     .ty .lead {
       color: var(--text-soft);
       font-size: 1.02rem;
       line-height: 1.65;
       margin-bottom: 2rem;
     }
-    .ty .lead strong { color: var(--text); }
+
+    .ty .lead strong {
+      color: var(--text);
+    }
+
     .ty-steps {
       background: var(--bg-alt);
       border: 1px solid var(--border);
@@ -79,6 +101,7 @@
       text-align: left;
       margin-bottom: 1.75rem;
     }
+
     .ty-steps h3 {
       font-family: 'Montserrat', sans-serif;
       font-size: 0.8rem;
@@ -87,6 +110,7 @@
       color: var(--text-mute);
       margin-bottom: 0.9rem;
     }
+
     .ty-step {
       display: flex;
       gap: 0.85rem;
@@ -94,7 +118,11 @@
       padding: 0.6rem 0;
       font-size: 0.94rem;
     }
-    .ty-step:not(:last-child) { border-bottom: 1px dashed var(--border); }
+
+    .ty-step:not(:last-child) {
+      border-bottom: 1px dashed var(--border);
+    }
+
     .ty-step .n {
       flex-shrink: 0;
       width: 26px;
@@ -109,8 +137,18 @@
       justify-content: center;
       font-size: 0.82rem;
     }
-    .ty-step div strong { display: block; color: var(--text); margin-bottom: 0.15rem; }
-    .ty-step div span { color: var(--text-soft); font-size: 0.86rem; }
+
+    .ty-step div strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 0.15rem;
+    }
+
+    .ty-step div span {
+      color: var(--text-soft);
+      font-size: 0.86rem;
+    }
+
     .ty-note {
       background: #fef3c7;
       border: 1px solid #fde68a;
@@ -120,9 +158,13 @@
       color: #78350f;
       text-align: left;
     }
-    .ty-note strong { color: #78350f; }
+
+    .ty-note strong {
+      color: #78350f;
+    }
   </style>
 </head>
+
 <body>
 
   <!-- NAV -->
@@ -135,16 +177,18 @@
 
   <section class="ty">
     <div class="ty-check">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="20 6 9 17 4 12"/>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+        stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12" />
       </svg>
     </div>
 
     <h1>Pronto! Sua compra foi <em>confirmada</em></h1>
 
     <p class="lead">
-      Acabamos de enviar o acesso aos <strong>+350 projetos técnicos</strong> para o e-mail que você usou ao pagar.
-      Chega nos próximos minutos.
+      Acabamos de enviar o acesso aos <strong>mais de 350 projetos técnicos</strong>
+      para o e-mail utilizado no momento da compra.
+      A mensagem deve chegar nos próximos minutos.
     </p>
 
     <div class="ty-steps">
@@ -154,52 +198,78 @@
         <span class="n">1</span>
         <div>
           <strong>Verifique seu e-mail</strong>
-          <span>Procure por um e-mail da Hotmart com o acesso ao seu produto. Se não o encontrar, verifique a pasta de spam ou promoções.</span>
+          <span>
+            Procure por um e-mail da Hotmart com as instruções de acesso ao seu produto.
+            Caso não o encontre, verifique também as pastas de spam, lixo eletrônico ou promoções.
+          </span>
         </div>
       </div>
 
       <div class="ty-step">
         <span class="n">2</span>
         <div>
-          <strong>Abra a Guia de Download Gymcraft</strong>
-          <span>Dentro do e-mail você encontrará um PDF com esse nome. Abra-o: dentro está o botão que leva você para a pasta do Google Drive com todos os projetos.</span>
+          <strong>Abra o Guia de Download da Gymcraft</strong>
+          <span>
+            No conteúdo recebido, você encontrará um PDF chamado
+            “Guia de Download da Gymcraft”. Abra o arquivo e clique no botão disponível
+            para acessar a pasta do Google Drive com todos os projetos.
+          </span>
         </div>
       </div>
 
       <div class="ty-step">
         <span class="n">3</span>
         <div>
-          <strong>Baixe os projetos do Drive</strong>
-          <span>Você pode baixar tudo de uma vez ou os PDFs que quiser. São seus para sempre, guarde-os em seu computador ou na sua nuvem.</span>
+          <strong>Baixe os projetos pelo Google Drive</strong>
+          <span>
+            Você pode baixar toda a coleção de uma só vez ou selecionar apenas os arquivos
+            que desejar. O acesso é vitalício, por isso recomendamos salvar uma cópia
+            no seu computador ou em um serviço de armazenamento na nuvem.
+          </span>
         </div>
       </div>
     </div>
 
     <div class="ty-note">
-      <strong>Importante:</strong> o e-mail chega em menos de 5 minutos. Se passarem mais de 1 hora,
-      escreva para <a href="mailto:gymcraftacademy@gmail.com" style="color:#78350f; font-weight:600;">gymcraftacademy@gmail.com</a>
-      e reenviamos manualmente.
+      <strong>Importante:</strong>
+      o e-mail normalmente chega em até 5 minutos. Caso não o receba em até 1 hora,
+      entre em contato pelo e-mail
+      <a href="mailto:gymcraftacademy@gmail.com" style="color:#78350f; font-weight:600;">
+        gymcraftacademy@gmail.com
+      </a>
+      para que possamos reenviar o acesso manualmente.
     </div>
+
   </section>
 
   <footer>
     <div class="foot-logo">
       <div class="logo">
-        <span class="logo-top"><span class="gym">GYM</span><span class="craft">CRAFT</span></span>
+        <span class="logo-top">
+          <span class="gym">GYM</span><span class="craft">CRAFT</span>
+        </span>
         <span class="academy">A C A D E M Y</span>
       </div>
     </div>
+
     <div>
-      <a href="legal.html">Termos e política de privacidade</a>
+      <a href="legal.html">Termos de Uso e Política de Privacidade</a>
     </div>
+
     <div style="margin-top:0.6rem;">
-      Suporte: <a href="mailto:gymcraftacademy@gmail.com">gymcraftacademy@gmail.com</a>
+      Suporte:
+      <a href="mailto:gymcraftacademy@gmail.com">
+        gymcraftacademy@gmail.com
+      </a>
     </div>
+
     <p class="disclaimer">
       Gymcraft Academy · Produto digital · Pagamentos processados pela Hotmart.
-      Os resultados variam de acordo com o esforço e habilidade de cada comprador.
+      Os resultados podem variar de acordo com a experiência, a execução,
+      os materiais utilizados, o esforço e a habilidade de cada comprador.
     </p>
   </footer>
 
 </body>
+
 </html>

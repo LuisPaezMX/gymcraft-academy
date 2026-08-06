@@ -1,27 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TRT8PE77RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-TRT8PE77RM');
   </script>
 
   <!-- Meta Pixel Code -->
   <script>
-  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}
-  (window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '963412462765148');
-  fbq('track', 'PageView');
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      }; if (!f._fbq) f._fbq = n;
+      n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+    }
+      (window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '963412462765148');
+    fbq('track', 'PageView');
   </script>
   <noscript><img height="1" width="1" style="display:none"
-  src="https://www.facebook.com/tr?id=963412462765148&ev=PageView&noscript=1" /></noscript>
+      src="https://www.facebook.com/tr?id=963412462765148&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
 
   <meta charset="UTF-8" />
@@ -34,7 +39,9 @@
   <link rel="apple-touch-icon" href="favicon-192.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
   <style>
     .pp {
@@ -43,6 +50,7 @@
       padding: 3rem 1.25rem;
       text-align: center;
     }
+
     .pp-icon {
       width: 72px;
       height: 72px;
@@ -54,7 +62,12 @@
       justify-content: center;
       margin-bottom: 1.25rem;
     }
-    .pp-icon svg { width: 38px; height: 38px; }
+
+    .pp-icon svg {
+      width: 38px;
+      height: 38px;
+    }
+
     .pp h1 {
       font-family: 'Montserrat', sans-serif;
       font-weight: 800;
@@ -62,14 +75,23 @@
       line-height: 1.15;
       margin-bottom: 0.8rem;
     }
-    .pp h1 em { font-style: normal; color: var(--orange); }
+
+    .pp h1 em {
+      font-style: normal;
+      color: var(--orange);
+    }
+
     .pp .lead {
       color: var(--text-soft);
       font-size: 1.02rem;
       line-height: 1.65;
       margin-bottom: 2rem;
     }
-    .pp .lead strong { color: var(--text); }
+
+    .pp .lead strong {
+      color: var(--text);
+    }
+
     .pp-steps {
       background: var(--bg-alt);
       border: 1px solid var(--border);
@@ -78,6 +100,7 @@
       text-align: left;
       margin-bottom: 1.75rem;
     }
+
     .pp-steps h3 {
       font-family: 'Montserrat', sans-serif;
       font-size: 0.8rem;
@@ -86,6 +109,7 @@
       color: var(--text-mute);
       margin-bottom: 0.9rem;
     }
+
     .pp-step {
       display: flex;
       gap: 0.85rem;
@@ -93,7 +117,11 @@
       padding: 0.6rem 0;
       font-size: 0.94rem;
     }
-    .pp-step:not(:last-child) { border-bottom: 1px dashed var(--border); }
+
+    .pp-step:not(:last-child) {
+      border-bottom: 1px dashed var(--border);
+    }
+
     .pp-step .n {
       flex-shrink: 0;
       width: 26px;
@@ -108,8 +136,18 @@
       justify-content: center;
       font-size: 0.82rem;
     }
-    .pp-step div strong { display: block; color: var(--text); margin-bottom: 0.15rem; }
-    .pp-step div span { color: var(--text-soft); font-size: 0.86rem; }
+
+    .pp-step div strong {
+      display: block;
+      color: var(--text);
+      margin-bottom: 0.15rem;
+    }
+
+    .pp-step div span {
+      color: var(--text-soft);
+      font-size: 0.86rem;
+    }
+
     .pp-warn {
       background: #fee2e2;
       border: 1px solid #fecaca;
@@ -120,7 +158,11 @@
       text-align: left;
       margin-bottom: 1rem;
     }
-    .pp-warn strong { color: #7f1d1d; }
+
+    .pp-warn strong {
+      color: #7f1d1d;
+    }
+
     .pp-note {
       background: #fef3c7;
       border: 1px solid #fde68a;
@@ -130,9 +172,13 @@
       color: #78350f;
       text-align: left;
     }
-    .pp-note strong { color: #78350f; }
+
+    .pp-note strong {
+      color: #78350f;
+    }
   </style>
 </head>
+
 <body>
 
   <!-- NAV -->
@@ -145,17 +191,19 @@
 
   <section class="pp">
     <div class="pp-icon">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="12" cy="12" r="10"/>
-        <polyline points="12 6 12 12 16 14"/>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+        stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10" />
+        <polyline points="12 6 12 12 16 14" />
       </svg>
     </div>
 
-    <h1>Seu pedido está <em>reservado</em></h1>
+    <h1>Seu pedido está <br><em>reservado</em></h1>
 
     <p class="lead">
-      Você escolheu pagar com <strong>boleto bancário</strong>, então ainda falta um passo:
-      completar o pagamento para que possamos enviar os <strong>+350 projetos técnicos</strong> para seu e-mail.
+      Você escolheu pagar com <strong>boleto bancário</strong>. Agora falta apenas concluir o pagamento
+      para que possamos liberar o acesso aos <strong>mais de 350 projetos técnicos</strong>
+      no e-mail informado durante a compra.
     </p>
 
     <div class="pp-steps">
@@ -164,59 +212,88 @@
       <div class="pp-step">
         <span class="n">1</span>
         <div>
-          <strong>Pague seu boleto antes do vencimento</strong>
-          <span>Hotmart enviou um e-mail com seu boleto e o código de barras. Você pode pagar via internet banking, app do seu banco, ou em uma lotérica. Pague o mais breve possível para ativar seu acesso imediatamente após a compensação.</span>
+          <strong>Pague o boleto antes da data de vencimento</strong>
+          <span>
+            A Hotmart enviou um e-mail com o boleto e o código de barras.
+            Você pode realizar o pagamento pelo internet banking, pelo aplicativo do seu banco
+            ou em uma casa lotérica. Recomendamos pagar o quanto antes para que o acesso seja
+            liberado assim que o pagamento for compensado.
+          </span>
         </div>
       </div>
 
       <div class="pp-step">
         <span class="n">2</span>
         <div>
-          <strong>Aguarde a confirmação da Hotmart</strong>
-          <span>Depois que o banco compensa o pagamento, Hotmart valida e envia o acesso por e-mail. Geralmente leva 24 a 48 horas após o pagamento. Você não precisa fazer nada da sua parte.</span>
+          <strong>Aguarde a confirmação do pagamento</strong>
+          <span>
+            Após a compensação bancária, a Hotmart confirmará o pagamento e enviará por e-mail
+            as instruções de acesso ao produto. Esse processo normalmente leva de 24 a 48 horas
+            após o pagamento do boleto. Você não precisa realizar nenhuma outra ação.
+          </span>
         </div>
       </div>
 
       <div class="pp-step">
         <span class="n">3</span>
         <div>
-          <strong>Abra a Guia de Download Gymcraft</strong>
-          <span>Nesse e-mail chega um PDF com esse nome. Abra-o: dentro está o botão que leva você para a pasta do Google Drive com todos os projetos para baixar.</span>
+          <strong>Abra o Guia de Download da Gymcraft</strong>
+          <span>
+            No e-mail de acesso, você encontrará um PDF chamado
+            “Guia de Download da Gymcraft”. Abra o arquivo e clique no botão disponível
+            para acessar a pasta do Google Drive com todos os projetos.
+          </span>
         </div>
       </div>
     </div>
 
     <div class="pp-warn">
-      <strong>Não pague novamente.</strong> Seu boleto já foi gerado. Se fizer uma segunda compra,
-      vão cobrar duas vezes e o reembolso demora. Use apenas o boleto que chegou no seu e-mail.
+      <strong>Não realize uma nova compra.</strong>
+      Seu boleto já foi gerado e continua válido até a data de vencimento.
+      Uma nova tentativa poderá gerar um segundo pedido e uma cobrança duplicada.
+      Utilize apenas o boleto enviado para o seu e-mail.
     </div>
 
     <div class="pp-note">
-      <strong>Não recebeu o boleto?</strong> Verifique spam ou promoções no seu e-mail.
-      Se passar mais de 1 hora sem receber, escreva para
-      <a href="mailto:gymcraftacademy@gmail.com" style="color:#78350f; font-weight:600;">gymcraftacademy@gmail.com</a>
-      e ajudamos a resolver.
+      <strong>Não recebeu o boleto?</strong>
+      Verifique sua caixa de entrada e também as pastas de spam, lixo eletrônico ou promoções.
+      Caso não o receba em até 1 hora, entre em contato pelo e-mail
+      <a href="mailto:gymcraftacademy@gmail.com" style="color:#78350f; font-weight:600;">
+        gymcraftacademy@gmail.com
+      </a>
+      para que possamos ajudar.
     </div>
+
   </section>
 
   <footer>
     <div class="foot-logo">
       <div class="logo">
-        <span class="logo-top"><span class="gym">GYM</span><span class="craft">CRAFT</span></span>
+        <span class="logo-top">
+          <span class="gym">GYM</span><span class="craft">CRAFT</span>
+        </span>
         <span class="academy">A C A D E M Y</span>
       </div>
     </div>
+
     <div>
-      <a href="legal.html">Termos e política de privacidade</a>
+      <a href="legal.html">Termos de Uso e Política de Privacidade</a>
     </div>
+
     <div style="margin-top:0.6rem;">
-      Suporte: <a href="mailto:gymcraftacademy@gmail.com">gymcraftacademy@gmail.com</a>
+      Suporte:
+      <a href="mailto:gymcraftacademy@gmail.com">
+        gymcraftacademy@gmail.com
+      </a>
     </div>
+
     <p class="disclaimer">
       Gymcraft Academy · Produto digital · Pagamentos processados pela Hotmart.
-      Os resultados variam de acordo com o esforço e habilidade de cada comprador.
+      Os resultados podem variar de acordo com a experiência, a execução,
+      os materiais utilizados, o esforço e a habilidade de cada comprador.
     </p>
   </footer>
 
 </body>
+
 </html>
